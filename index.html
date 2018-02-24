@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CDN  -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script> -->
+    <!-- Google Font Link -->
+    <link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet'>
+    <style src="assets/css/style.css">
+    
+    body {
+      background-image: url("http://www.the007dossier.com/007Dossier/james-bond-wallpaper/007/007-evolution.jpg");
+      font-family: 'Convergence';font-size: 22px;
+    }
+
+    .container {
+      background-color: white; opacity: 0.5;
+      margin-right: 20%;
+      margin-left: 20%;
+      /* align-content: center; */
+    }
+    
+    </style>
+    <title>007 Trivia</title>
+</head>
+<body>
+<div class="container">
+  <center> <h1>Trivia Game!</h1></center>
+<div>
+  Answer the following True or False questions.  Press "T" for True and "F" for False.
+</div>
+<br>
+      <!-- Warns the User how much time is left -->
+      Time Left:  
+      <div class="counter">00:00</div>
+
+      <!-- Borrowed from Question Class Exercise -->
+        <p id="score"></p>
+        <center><p id="question"></p></center>
+    
+      <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+    <!-- JavaScript file -->
+    <script src="assets/javascript/app.js"></script>
+</div>
+</body>
+</html>
